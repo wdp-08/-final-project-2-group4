@@ -1,0 +1,97 @@
+ .pricing {
+    margin-top: 150px;
+    
+  }
+  .pricing .main-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #234CAD;
+  }
+  .pricing .body-text {
+    width: 35%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+  }
+  .pricing .card1 {
+    border-radius: 3rem;
+    background-color: #F2F6FF;
+  }
+  .pricing .card2 {
+    border-radius: 3rem;
+    border: 3px #234CAD solid;
+  }
+  .pricing .card3 {
+    border-radius: 3rem;
+    background-color: #F2F6FF;
+  }
+  .pricing h5 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-align: center;
+    color: #234CAD;
+  }
+  
+  .pricing h2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #234CAD;
+  }
+  .pricing p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #234CAD;
+  }
+  .pricing .card1 button {
+    background-color: white;
+    width: 180px;
+    height: 55px;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 37.5px;
+  }
+  .pricing .card3 button {
+    background-color: white;
+    width: 180px;
+    height: 55px;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 37.5px;
+  }
+  
+  .pricing .card2 button {
+    background-color: white;
+    border: 2px #234CAD solid;
+    width: 180px;
+    height: 55px;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 37.5px;
+  }
+  
+  .pricing button:hover {
+    background: #234CAD !important;
+    border-radius: 4rem;
+    color: #ffffff;
+  } 
