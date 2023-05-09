@@ -1,0 +1,303 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  position: absolute;
+  width: 1440px;
+  height: 5095px;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+}
+
+/* Icons Cloud */
+.cloud-icon {
+  position: absolute;
+  width: 1240px;
+  height: 100px;
+  left: 100px;
+  top: 925px;
+}
+
+.cloud-item1 {
+  position: absolute;
+  width: 532px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+.cloud-item1 .img {
+  position: absolute;
+  left: 0%;
+  right: 91.94%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.textcontent-1 {
+  position: absolute;
+  left: 10.48%;
+  right: 0%;
+  top: 8%;
+  bottom: 7%;
+}
+
+.textcontent-1 h4 {
+  position: absolute;
+  height: 49px;
+  left: 0%;
+  right: 57.71%;
+  top: calc(50% - 49px / 2 - 18px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 6000;
+  font-size: 30px;
+  line-height: 49px;
+  color: #234cad;
+}
+
+.textcontent-1 p {
+  position: absolute;
+  height: 36px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 36px / 2 + 24.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #234cad;
+}
+
+.cloud-item2 {
+  position: absolute;
+  width: 553px;
+  height: 100px;
+  left: 687px;
+  top: 0px;
+}
+
+.cloud-item2 .img {
+  position: absolute;
+  left: 55.4%;
+  right: 36.53%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.textcontent-2 {
+  position: absolute;
+  left: 22.48%;
+  right: -57.1%;
+  top: 8%;
+  bottom: 7%;
+}
+
+.textcontent-2 h4 {
+  position: absolute;
+  height: 49px;
+  left: 0%;
+  right: 73.76%;
+  top: calc(50% - 49px / 2 - 18px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 49px;
+  color: #234cad;
+}
+
+.textcontent-2 p {
+  position: absolute;
+  height: 36px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 36px / 2 + 24.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #234cad;
+}
+
+/* Text Center */
+.text-center {
+  position: absolute;
+  width: 1240px;
+  height: 908px;
+  left: 100px;
+  top: 1900px;
+}
+
+.content {
+  position: absolute;
+  width: 723px;
+  height: 133px;
+  left: 259px;
+  top: 0px;
+}
+
+.text1 {
+  position: absolute;
+  left: 10%;
+  right: 0%;
+  bottom: 52%;
+  width: 800px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #234cad;
+}
+.text2 {
+  position: absolute;
+  left: 35%;
+  right: 32.82%;
+  top: 50%;
+  bottom: 85.35%;
+  width: 425px;
+  height: 52px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234cad;
+}
+
+.content2 {
+  position: absolute;
+  width: 1240px;
+  height: 625px;
+  left: 0px;
+  top: 233px;
+}
+
+.components {
+  position: absolute;
+  width: 1026px;
+  height: 595px;
+  left: 107px;
+  top: 263px;
+}
+
+/* Newsletter */
+.newsletter {
+  position: absolute;
+  width: 1240px;
+  height: 383px;
+  left: 100px;
+  top: 4321px;
+}
+
+.newsletter-card {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+.newsletter-heading {
+  position: absolute;
+  left: 27.1%;
+  right: 27.02%;
+  top: 19.58%;
+  bottom: 65.8%;
+  width: 569px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #234cad;
+}
+
+.newsletter-description {
+  position: absolute;
+  left: 36.05%;
+  right: 35.89%;
+  top: 40.73%;
+  bottom: 45.69%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234cad;
+}
+
+.newsletter-form {
+  position: absolute;
+  left: 29.84%;
+  right: 29.84%;
+  top: 63.45%;
+  bottom: 19.58%;
+  background: #ffffff;
+  border-radius: 17.5px;
+  width: 500px;
+  height: 65px;
+}
+
+.newsletter-form input {
+  width: 100%;
+  height: 60px;
+  border: 0;
+  background: none;
+  padding: 0 30px;
+  outline: none;
+  font-size: 15px;
+  padding-right: 80px;
+}
+
+.newsletter-form button {
+  position: absolute;
+  left: 89%;
+  right: 2%;
+  top: 15.38%;
+  bottom: 15.38%;
+  background: #234cad;
+  border-radius: 12.5px;
+}
+
+.newsletter-form button:hover {
+  opacity: 0.5;
+}
+
+.newsletter-form:hover {
+  transform: scale(1.02);
+}
+
+@media only screen and (max-width: 768px) {
+  /* CSS untuk layar kecil */
+  .newsletter_card {
+    width: 100%;
+    text-align: center;
+  }
+  .newsletter-input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* CSS untuk layar besar */
+  .newsletter_card {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .newsletter-input {
+    width: 60%;
+    margin-right: 10px;
+  }
+}
