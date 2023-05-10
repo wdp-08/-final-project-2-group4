@@ -126,23 +126,21 @@ body {
 }
 
 /* Text Center */
-.text-center {
+.web-sectiontextcenter {
   position: absolute;
   width: 1240px;
   height: 908px;
   left: 100px;
   top: 1900px;
 }
-
-.content {
+.contenttext {
   position: absolute;
   width: 723px;
   height: 133px;
   left: 259px;
   top: 0px;
 }
-
-.text1 {
+.titleemain {
   position: absolute;
   left: 10%;
   right: 20.81%;
@@ -154,10 +152,13 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
+  /* identical to box height, or 117% */
+
   text-align: center;
+
   color: #234cad;
 }
-.text2 {
+.texttbody {
   position: absolute;
   left: 30%;
   right: 32.82%;
@@ -170,11 +171,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+
   text-align: center;
+
   color: #234cad;
 }
-
-.content2 {
+.content3 {
   position: absolute;
   width: 1240px;
   height: 625px;
@@ -183,18 +185,16 @@ body {
   background: #f2f6ff;
   border-radius: 60px;
 }
-
-.components {
+.komponenUI {
   position: absolute;
   width: 1026px;
   height: 595px;
   left: 107px;
   top: 263px;
 }
-
-/* card 1 */
-.card-1 {
+.card1tc {
   position: absolute;
+
   right: 37%;
   top: -15%;
   bottom: 39.65%;
@@ -203,54 +203,133 @@ body {
   background: #ffffff;
   border-radius: 25px;
 }
+.icon1tc {
+  /* box-sizing: border-box; */
 
-.card-1 img {
   position: absolute;
-  left: 10%;
-  right: 0%;
-  top: 10%;
+  left: 15%;
+  right: 54.68%;
+  top: 30%;
   bottom: 48.46%;
 }
-
-.title-1 {
+.title3tc {
   position: absolute;
   height: 21px;
-  left: 15%;
-  right: 0%;
-  top: calc(30% - 21px / 2 - 12px);
+  left: 40%;
+  top: 20%;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  /* identical to box height, or 131% */
 
   color: #234cad;
 }
-
-.information {
+.information3tc {
   position: absolute;
   height: 21px;
-  left: 25%;
-  right: 0%;
-  top: calc(30% - 21px / 2 + 12px);
+  left: 40%;
+  top: 35%;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
+
   color: #234cad;
 }
-.meeting-participant {
+.myperson {
+  left: 20%;
+  right: -200%;
+}
+.text-block {
   position: absolute;
-  width: 130px;
+  width: 40px;
   height: 40px;
-  left: 502px;
-  top: 488px;
+  background-color: #f2f6ff;
+  color: white;
+  padding: 9px;
+  border-radius: 100%;
+  bottom: 20px;
+  margin: 20px -10px 20px 20px;
+  border-style: solid;
 }
 
-/* card 2 */
-.card-2 {
+.person01 .text-block p {
+  height: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #234cad;
+}
+
+.text-block-1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #f2f6ff;
+  color: white;
+  padding: 9px;
+  border-radius: 100%;
+  bottom: 20px;
+  margin-left: 50px;
+  border-style: solid;
+}
+
+.person-1 .text-block-1 p {
+  height: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #234cad;
+}
+
+.text-block-2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #f2f6ff;
+  color: white;
+  padding: 9px;
+  border-radius: 100%;
+  bottom: 20px;
+  margin-left: 80px;
+  border-style: solid;
+}
+
+.person-2 .text-block-2 p {
+  height: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #234cad;
+}
+
+.text-block-3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #f2f6ff;
+  color: white;
+  padding: 9px;
+  border-radius: 100%;
+  bottom: 20px;
+  margin-left: 110px;
+  border-style: solid;
+}
+
+.person-3 .text-block-3 p {
+  height: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #234cad;
+}
+.cardd2tc {
   position: absolute;
   left: 65%;
   right: 8.63%;
@@ -261,40 +340,255 @@ body {
   background: #ffffff;
   border-radius: 20px;
 }
-
-.card-2 span {
+.icon2tc {
   position: absolute;
   left: 10%;
   right: 54.68%;
   top: 20%;
   bottom: 48.46%;
 }
-
-.title-2 {
+.tittlec2tc {
   position: absolute;
   height: 21px;
-  left: 0%;
-  right: 10%;
-  top: calc(50% - 21px / 2 - 12px);
+  left: 35%;
+  top: 25%;
+  font-family: "Nunito";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 21px;
+
   color: #234cad;
 }
-
-.amount {
+.amounttc {
   position: absolute;
   height: 21px;
-  left: 0%;
-  right: 49.38%;
+  left: 35%;
+  right: 30%;
   top: calc(50% - 21px / 2 + 12px);
+
   font-family: "Basic";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
   color: #234cad;
+}
+.cardd3tc {
+  position: absolute;
+  left: 0%;
+  right: 50%;
+  bottom: 33.59%;
+  width: 350px;
+  height: 100px;
+
+  top: 2%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.icon3tc {
+  position: absolute;
+  left: 10%;
+  right: 84.92%;
+  top: 20%;
+
+  bottom: 48.46%;
+  background-color: #f2f6ff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.namecr3tc {
+  position: absolute;
+  height: 21px;
+  left: 33%;
+  top: 30%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+}
+.masaagecr3tc {
+  position: absolute;
+  height: 21px;
+  left: 33%;
+  top: 50%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+.card4tc {
+  position: absolute;
+  left: 46%;
+  right: 24.76%;
+  top: -38%;
+  bottom: 60.02%;
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.initialcr4tc {
+  position: absolute;
+  left: 9.26%;
+  right: 83.35%;
+  top: 20%;
+  bottom: 63.83%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitialcr4tc {
+  position: absolute;
+  height: 29px;
+  left: 33.33%;
+  right: 33.33%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height, or 132% */
+
+  color: #234cad;
+}
+.Pnumbercr4tc {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+.notifikasicr4tc {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 20px;
+  height: 20px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.pnamecr4tc {
+  position: absolute;
+  margin-left: 150%;
+  size: 20px;
+  bottom: 0%;
+  top: 20%;
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.pmassagecr4tc {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 400%;
+  bottom: 0%;
+  top: 50%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptimecr4tc {
+  position: absolute;
+  margin-left: 420%;
+  width: 300%;
+  top: 20%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.card5tc {
+  position: absolute;
+  right: 30%;
+  top: 17%;
+  bottom: 39.65%;
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.card6tc {
+  position: absolute;
+  left: 36%;
+  right: 24.76%;
+  top: 40%;
+  bottom: 60.02%;
+  width: 130px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.iconcr6tc {
+  margin: 40px 0 0 35px;
+}
+.amountcr6tc {
+  position: absolute;
+  left: 27%;
+  top: 85%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #234cad;
+}
+.card7tc {
+  position: absolute;
+  left: 27%;
+  right: 24.76%;
+  top: 30%;
+  bottom: 60.02%;
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card8tc {
+  position: absolute;
+  left: 36%;
+  right: 24.76%;
+  top: -34%;
+  bottom: 60.02%;
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 20px;
 }
 
 /* Newsletter */
