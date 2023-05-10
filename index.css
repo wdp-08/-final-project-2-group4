@@ -145,19 +145,21 @@ body {
 .text1 {
   position: absolute;
   left: 10%;
-  right: 0%;
-  bottom: 52%;
-  width: 800px;
+  right: 20.81%;
+  top: 0%;
+  bottom: 93.83%;
+  width: 723px;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
+  text-align: center;
   color: #234cad;
 }
 .text2 {
   position: absolute;
-  left: 35%;
+  left: 30%;
   right: 32.82%;
   top: 50%;
   bottom: 85.35%;
@@ -178,6 +180,8 @@ body {
   height: 625px;
   left: 0px;
   top: 233px;
+  background: #f2f6ff;
+  border-radius: 60px;
 }
 
 .components {
@@ -186,6 +190,111 @@ body {
   height: 595px;
   left: 107px;
   top: 263px;
+}
+
+/* card 1 */
+.card-1 {
+  position: absolute;
+  right: 37%;
+  top: -15%;
+  bottom: 39.65%;
+  width: 276px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.card-1 img {
+  position: absolute;
+  left: 10%;
+  right: 0%;
+  top: 10%;
+  bottom: 48.46%;
+}
+
+.title-1 {
+  position: absolute;
+  height: 21px;
+  left: 15%;
+  right: 0%;
+  top: calc(30% - 21px / 2 - 12px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  color: #234cad;
+}
+
+.information {
+  position: absolute;
+  height: 21px;
+  left: 25%;
+  right: 0%;
+  top: calc(30% - 21px / 2 + 12px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+.meeting-participant {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 502px;
+  top: 488px;
+}
+
+/* card 2 */
+.card-2 {
+  position: absolute;
+  left: 65%;
+  right: 8.63%;
+  top: -15%;
+  bottom: 46.26%;
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card-2 span {
+  position: absolute;
+  left: 10%;
+  right: 54.68%;
+  top: 20%;
+  bottom: 48.46%;
+}
+
+.title-2 {
+  position: absolute;
+  height: 21px;
+  left: 0%;
+  right: 10%;
+  top: calc(50% - 21px / 2 - 12px);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+}
+
+.amount {
+  position: absolute;
+  height: 21px;
+  left: 0%;
+  right: 49.38%;
+  top: calc(50% - 21px / 2 + 12px);
+  font-family: "Basic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
 }
 
 /* Newsletter */
