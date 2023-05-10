@@ -1,0 +1,584 @@
+@font-face {
+  font-family: Nunito;
+  src: url('font/Nunito-VariableFont.ttf');
+}
+
+/* css untuk textright start */
+.right {
+  margin-top: 10px;
+}
+.text-right2 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+.right .text-right2 {
+  padding-top: 50px;
+}
+
+.right .text-right2 .content-box {
+  border-radius: 4rem;
+  background-color: #f2f6ff;
+}
+
+.right .box {
+  padding: 118px 0 115px 0;
+}
+.content-box {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.content-right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.content-right h2 {
+  font-size: 42px;
+  font-weight: 700;
+  align-items: left;
+  white-space: normal !important;
+  color: #234cad;
+}
+.content-right p {
+  color: #234cad;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  white-space: normal !important;
+  padding-top: 1.5rem !important;
+  text-align: left;
+}
+.content-right .btn {
+  color: #234cad !important;
+  border: 2px #234cad solid;
+  font-weight: 700;
+  margin-top: 20px;
+  height: 65px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  border-radius: var(--bs-border-radius-pill) !important;
+  margin-top: 1.5rem !important;
+}
+.content-box .btn:hover {
+  border: none;
+  background-color: #234cad !important;
+  color: #fff !important;
+}
+
+.card-1content {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 50px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 120px 5px 5px 100px;
+  margin: -100px 100px 100px 100px;
+}
+.initial {
+  position: absolute;
+  left: 5%;
+  right: 83.35%;
+  top: 20%;
+  bottom: 63.83%;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitial {
+  position: absolute;
+  height: 29px;
+  left: 33.33%;
+  right: 33.33%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  /* identical to box height, or 132% */
+
+  color: #234cad;
+}
+.notifikasi {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 20px;
+  height: 20px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.Pnumber {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+
+.pnamee {
+  position: absolute;
+  margin-left: 150%;
+  size: 20px;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 - 15px);
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+.pmassage {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 400%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptime {
+  position: relative;
+  margin-left: 450%;
+  width: 300%;
+  top: calc(50% - 17px / 2 - 20px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 135% */
+
+  color: #234cad;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.card-2content{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 70px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 100px 5px 5px 100px;
+  margin: -100px 120px 100px 120px;
+}
+.initialcr2 {
+  position: absolute;
+  left: 5%;
+  right: 83.35%;
+  top: 20%;
+  bottom: 63.83%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitialcr2 {
+  position: absolute;
+  height: 29px;
+  left: 33.33%;
+  right: 33.33%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height, or 132% */
+
+  color: #234cad;
+}
+
+
+.pnameecr2 {
+  position: absolute;
+  margin-left: 150%;
+  size: 20px;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 - 15px);
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+.pmassagecr2 {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 500%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptimecr2 {
+  position: relative;
+  margin-left: 500%;
+  width: 300%;
+  top: calc(50% - 17px / 2 - 20px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 135% */
+
+  color: #234cad;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.notifikasicr2 {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 16px;
+  height: 16px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.Pnumbercr2 {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+.card-3content{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 90px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 80px 5px 5px 100px;
+  margin: -100px 140px 100px 140px;
+}
+.initialcr3 {
+  position: absolute;
+  left: 5%;
+  right: 83.35%;
+  top: 20%;
+  bottom: 63.83%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitialcr3 {
+  position: absolute;
+  height: 29px;
+  left: 33.33%;
+  right: 33.33%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 29px;
+  /* identical to box height, or 132% */
+
+  color: #234cad;
+}
+
+
+.pnameecr3 {
+  position: absolute;
+  margin-left: 150%;
+  size: 20px;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 - 15px);
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+}
+.pmassagecr3 {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 500%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptimecr3 {
+  position: relative;
+  margin-left: 550%;
+  width: 300%;
+  top: calc(50% - 17px / 2 - 20px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 135% */
+
+  color: #234cad;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.notifikasicr3 {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 16px;
+  height: 16px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.Pnumbercr3 {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+@media screen and (max-width: 1400px) {
+  
+  .card-1content  {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  top: 50px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 120px 5px 5px 100px;
+  margin: -100px 10px 100px 10px;
+}
+.card-2content{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 70px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 100px 5px 5px 100px;
+  margin: -100px 20px 100px 20px;
+}
+.card-3content{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 90px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 80px 5px 5px 100px;
+  margin: -100px 25px 100px 25px;
+}
+.ptime,.ptimecr2,.ptimecr3{
+  display: none;
+}
+}
+/* css untuk textright end */
+
+/* css untuk pricing start */
+ .pricing {
+    margin-top: 150px;
+    
+  }
+  .pricing .main-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #234CAD;
+  }
+  .pricing .body-text {
+    width: 35%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #234CAD;
+  }
+  .pricing .card1 {
+    border-radius: 3rem;
+    background-color: #F2F6FF;
+    display: flex;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
+  .pricing .card2 {
+    border-radius: 3rem;
+    border: 3px #234CAD solid;
+    display: flex;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
+  .pricing .card3 {
+    border-radius: 3rem;
+    background-color: #F2F6FF;
+    display: flex;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
+  .pricing h5 {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #234CAD;
+  }
+  
+  .pricing h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #234CAD;
+    padding-top: .25rem!important;
+  }
+  .pricing p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #234CAD;
+    padding-top: 1rem!important;
+  }
+  .pricing .card1 button {
+    background-color: white;
+    width: 180px;
+    height: 55px;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 37.5px;
+  }
+  .pricing .card3 button {
+    background-color: white;
+    width: 180px;
+    height: 55px;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 37.5px;
+  }
+  
+  .pricing .card2 button {
+    background-color: white;
+    border: 2px #234CAD solid;
+    width: 180px;
+    height: 55px;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 37.5px;
+  }
+  
+  .pricing button:hover {
+    background: #234CAD !important;
+    border-radius: 4rem;
+    color: #ffffff;
+  }
+/* css untuk pricing end */
+
+/* css untuk footer start */
+
+footer {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.footer h4 {
+  color: #234CAD;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0px;
+  text-align: left;
+  
+}
+.footer p {
+font-weight: 400;
+color: #234CAD;
+font-size: 18px;
+width: 50%;
+}
+
+.footer ul li {
+  color: #234CAD;
+  font-size: 18px;
+  width: 50%;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+/* css untuk footer end */
