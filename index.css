@@ -12,6 +12,944 @@ body {
   color: #ffffff;
 }
 
+/* Header */
+.menu_button {
+  height: 40px;
+  width: 40px;
+  background: #F2F6FF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 5px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.menu_button h1 {
+  font-size: 30px;
+  color: #234CAD;
+
+}
+
+.menu {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 430px;
+}
+
+.menu li a {
+  font-size: 18px;
+  color: #234CAD;
+  margin-right: 50px;
+}
+
+.login {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1045px;
+}
+
+.login button {
+  height: 50px;
+  width: 135px;
+  background-color: #ffff;
+  border-radius: 25px;
+  border-color: #234CAD;
+  color: #234CAD;
+}
+
+.sign {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1205px;
+}
+
+.sign button {
+  height: 50px;
+  width: 135px;
+  background: #F2F6FF;
+  border-radius: 25px;
+  color: #234CAD;
+  border: none;
+}
+
+/* Hero */
+.hero {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 575px;
+  width: 1240px;
+  background: #F2F6FF;
+  border-radius: 60px;
+}
+
+.main-title {
+  position: absolute;
+  height: 168px;
+  width: 375px;
+  margin-top: 108px;
+  margin-left: 100px;
+
+}
+
+.main-title h1 {
+  font-size: 48px;
+  color: #234CAD;
+  font-weight: 700;
+}
+
+.body-text {
+  position: absolute;
+  height: 52px;
+  width: 304px;
+  margin-top: 301px;
+  margin-left: 100px;
+}
+
+.body-text h3 {
+  font-size: 16px;
+  color: #234CAD;
+}
+
+.get {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 403px;
+}
+
+.get button {
+  height: 65px;
+  width: 200px;
+  background: #F2F6FF;
+  border-radius: 32.5px;
+  border-color: #234CAD;
+  color: #234CAD;
+}
+
+.card-1 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin-top: 136px;
+  margin-left: 575px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card-1 svg {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 20px;
+}
+
+.card-1 h1 {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-left: 93px;
+  color: #234CAD;
+  font-weight: 700;
+}
+
+.card-1 p {
+  position: absolute;
+  margin-top: 56px;
+  margin-left: 93px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+.card-2 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin-top: 261px;
+  margin-left: 876px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.person {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 20px;
+}
+
+.notif {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 64px;
+}
+
+.card-2 h1 {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-left: 93px;
+  color: #234CAD;
+  font-weight: 700;
+}
+
+.card-2 h3 {
+  position: absolute;
+  margin-top: 56px;
+  margin-left: 93px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+.card-2 h5 {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 292px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+.card-3 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin-top: 446px;
+  margin-left: 575px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.person {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 20px;
+}
+
+.notif {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 64px;
+}
+
+.card-3 h1 {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-left: 93px;
+  color: #234CAD;
+  font-weight: 700;
+}
+
+.card-3 h3 {
+  position: absolute;
+  margin-top: 56px;
+  margin-left: 93px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+.card-3 h5 {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 292px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+.card-4 {
+  position: absolute;
+  width: 130px;
+  height: 160px;
+  border-radius: 25px;
+  background-color: #FFFF;
+  margin-top: 76px;
+  margin-left: 975px;
+}
+
+.card-4 svg {
+  position: absolute;
+  margin-top: 29px;
+  margin-left: 30px;
+}
+
+.card-4 h1 {
+  position: absolute;
+  margin-top: 119px;
+  margin-left: 33.29px;
+  font-size: 10px;
+  color: #234CAD;
+  font-weight: 400;
+
+}
+
+.card-5 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: 36px;
+  margin-left: 575px;
+}
+
+.card-5 svg {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 26px;
+  color: #234CAD;
+}
+
+.card-6 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: 510px;
+  margin-left: 973px;
+}
+
+.card-6 svg {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 23px;
+  color: #234CAD;
+}
+
+.card-7 {
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  border-radius: 25px;
+  background-color: #fff;
+  margin-top: 261px;
+  margin-left: 575px;
+}
+
+.circle {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #234CAD;
+}
+
+.calendar {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: #234CAD;
+}
+
+.card-7 h1 {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-left: 93px;
+  color: #234CAD;
+  font-weight: 700;
+}
+
+.card-7 p {
+  position: absolute;
+  margin-top: 56px;
+  margin-left: 93px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+.circle-1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background-color: #F2F6FF;
+}
+
+.circle-1 p {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 10px;
+}
+
+.circle-2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 50%;
+  background-color: #F2F6FF;
+}
+
+.circle-2 p {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 10px;
+}
+
+.circle-3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: 80px;
+  border-radius: 50%;
+  background-color: #F2F6FF;
+}
+
+.circle-3 p {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 10px;
+}
+
+.circle-4 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: 110px;
+  border-radius: 50%;
+  background-color: #F2F6FF;
+}
+
+.circle-4 p {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 10px;
+}
+
+.card-8 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin-top: 386px;
+  margin-left: 975px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.circle {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #234CAD;
+}
+
+.calendar {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: #234CAD;
+}
+
+.card-8 h1 {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-left: 93px;
+  color: #234CAD;
+  font-weight: 700;
+}
+
+.card-8 p {
+  position: absolute;
+  margin-top: 56px;
+  margin-left: 93px;
+  font-size: 12px;
+  color: #234CAD;
+  font-weight: 400;
+}
+
+/* Text-Left */
+.text-left{
+    position: absolute;
+    width: 1040px;
+    height: 575px;
+    margin-top: 2858px;
+    margin-left: 200px;
+}
+
+.main-title1 {
+    position: absolute;
+    height: 168px;
+    width: 375px;
+    margin-top: 108px;
+
+}
+
+.main-title1 h1 {
+    font-size: 48px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.body-text1 {
+    position: absolute;
+    height: 52px;
+    width: 304px;
+    margin-top: 301px;
+}
+
+.body-text1 h3 {
+    font-size: 16px;
+    color: #234CAD;
+}
+
+.get1 {
+    position: absolute;
+    margin-top: 403px;
+}
+
+.get1 button {
+    height: 65px;
+    width: 200px;
+    background: #F2F6FF;
+    border-radius: 32.5px;
+    border-color: #234CAD;
+    color: #234CAD;
+}
+
+.card-back{
+    position: absolute;
+    width: 575px;
+    height: 575px;
+    margin-left: 465px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+    border: 2px solid #F2F6FF; 
+}
+
+.card-9 {
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.card-9 h1 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 93px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card-9 p {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 93px;
+    font-size: 12px;
+    color: #234CAD;
+    font-weight: 400;
+}
+
+.circle-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-1 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-2 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-3 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 110px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-4 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+
+.card-10 {
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 285px;
+    margin-left: 100px;
+}
+
+.card-10 h1 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 93px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card-10 p {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 93px;
+    font-size: 12px;
+    color: #234CAD;
+    font-weight: 400;
+}
+
+.circle-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-1 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-2 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-3 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 110px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-4 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+.card-11 {
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 470px;
+    margin-left: 100px;
+}
+
+.card-11 h1 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 93px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card-11 p {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 93px;
+    font-size: 12px;
+    color: #234CAD;
+    font-weight: 400;
+}
+.card-12 {
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 401px;
+}
+
+.card-12 h1 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 93px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card-12 p {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 93px;
+    font-size: 12px;
+    color: #234CAD;
+    font-weight: 400;
+}
+
+.circle-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-1 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-2 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-3 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+.card-13 {
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 285px;
+    margin-left: 401px;
+}
+
+.card-13 h1 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 93px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card-13 p {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 93px;
+    font-size: 12px;
+    color: #234CAD;
+    font-weight: 400;
+}
+
+.circle-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-1 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-2 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-3 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.circle-4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 110px;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+}
+
+.circle-4 p {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+    font-size: 10px;
+}
+.card-14 {
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 470px;
+    margin-left: 401px;
+}
+
+.card-14 h1 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 93px;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card-14 p {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 93px;
+    font-size: 12px;
+    color: #234CAD;
+    font-weight: 400;
+}
+
 /* Icons Cloud */
 .cloud-icon {
   position: absolute;
